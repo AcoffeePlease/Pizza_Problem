@@ -1,0 +1,13 @@
+# Default ignored files
+/workspace.xml
+.idea
+.vscode
+.git
+venv
+__pycache__
+/.anaconda
+/.envs
+/record.txt
+/docs/build
+*.orig
+CHANGELOG.temp
