@@ -1,5 +1,5 @@
 
-from file_management import read_file, write_file
+from file_management import read_file, write_file, score
 
 
 def main():
@@ -12,16 +12,18 @@ def main():
     print("R={} , C={} , L={} , H={} , \npizza=\n{} ".format(R, C, L, H, pizza))
 
 
+    # Pizza_slices creation
+    # ( initial X_position, initial Y_position, x_shape, y_shape )
+    pizza_slices = []
+    pizza_slices.append((0, 0, 3, 2))
+    pizza_slices.append((0, 2, 3, 1))
+    pizza_slices.append((0, 3, 3, 2))
+    print("Pizza slices: {}".format(pizza_slices))
 
-
-
+    #Score
+    print("Score: {}".format(score(pizza_slices)))
 
     # Write file output
-    pizza_slices = []
-    pizza_slices.append((0, 0, 2, 1))
-    pizza_slices.append((0, 2, 2, 2))
-    pizza_slices.append((0, 3, 2, 4))
-    print(pizza_slices)
     write_file("output1.txt", pizza_slices)
 
 

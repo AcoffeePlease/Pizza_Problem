@@ -31,4 +31,14 @@ def write_file(filename, pizza_slices):
             f.write(f"{r} {c} {r + dr - 1} {c + dc - 1}\n")
 
 
+"""
+    Computes score of given pizza_slices list.
+"""
+def score(pizza_slices):
 
+    s = 0
+    for pizza_slice in pizza_slices:
+
+        s += pizza_slice[2] * pizza_slice[3]
+        # prodotto tra base e altezza visto che indicano le forme della slice
+    return s
