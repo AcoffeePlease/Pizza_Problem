@@ -9,3 +9,6 @@
 calcolare il punteggio di un file di nome `'file'` scrivere  
 ``` ./main < file.in > file.out```
 
+
+- [Link](https://hashcode-pizza.now.sh/) per controllare il punteggio e visualizzare la pizza tagliata 
+
