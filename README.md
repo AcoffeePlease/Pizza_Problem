@@ -11,8 +11,10 @@ Funzioni necessarie per tutte le soluzioni:
 
 ## greedy1.py
 File di input: 
+
 File di output: **output1.txt**.
 
 ## greedy2.py
 File di input: 
+
 File di output: **output2.txt**.
