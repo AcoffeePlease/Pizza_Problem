@@ -15,6 +15,7 @@ def read_file(filename):
          for row in lines[1:]])
     return R, C, L, H, pizza
 
+
 """
   Scrivere file output con questo formato
   3
@@ -22,10 +23,12 @@ def read_file(filename):
   0 2 2 2
   0 3 2 4
 """
-#  TODO: write file output
-def write_file(filename):
-    out_file = open("output.txt", "w")
-    x = 52
-    out_file.write(str(x))
-    out_file.close()
+def write_file(filename, pizza_slices):
+    with open(filename, 'w') as f:
+        f.write(f"{len(pizza_slices)}\n")
+        for slice in pizza_slices:
+            r, c, dr, dc = slice
+            f.write(f"{r} {c} {r + dr - 1} {c + dc - 1}\n")
+
+
 
