@@ -4,6 +4,7 @@
 .vscode
 .git
 venv
+envs
 __pycache__
 /.anaconda
 /.envs
