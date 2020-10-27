@@ -7,3 +7,12 @@
 Funzioni necessarie per tutte le soluzioni:
 1) **read_file**: legge dal file di input
 2) **write_file**: genera file di output 
+3) **score**: fornisce il punteggio del taglio di pizza scelto
+
+## greedy1.py
+File di input: 
+File di output: **output1.txt**.
+
+## greedy2.py
+File di input: 
+File di output: **output2.txt**.
