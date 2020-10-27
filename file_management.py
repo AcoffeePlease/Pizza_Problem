@@ -29,12 +29,3 @@ def write_file(filename):
     out_file.write(str(x))
     out_file.close()
 
-def main():
-    R, C, L, H, pizza = read_file('input.txt')
-    print("R={} , C={} , L={} , H={} , \npizza=\n{} ".format(R, C, L, H, pizza))
-
-
-
-
-if __name__ == '__main__':
-    main()
