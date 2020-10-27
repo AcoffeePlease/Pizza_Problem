@@ -5,5 +5,5 @@
 
 ## File_management.py
 Funzioni necessarie per tutte le soluzioni:
-1) *read_file*: legge dal file di input
-2) *write_file*: genera file di output 
+1) **read_file**: legge dal file di input
+2) **write_file**: genera file di output 
