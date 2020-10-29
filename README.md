@@ -11,7 +11,7 @@ Funzioni necessarie per tutte le soluzioni:
 
 ## greedy1.py
 
-Per il **medium.in** visto che bisogna avere le fette di pizza con almeno L pomodori e L funghi e che non superino l'area di 12 quadrati allora le possibili forme tra cui scegliere sono 10.
+Per il **medium.in** visto che bisogna avere le fette di pizza con almeno L=4 pomodori e L=4 funghi e che non superino l'area di 12 quadrati allora le possibili forme tra cui scegliere sono 10.
 
 File di output: **output1.txt**.
 
