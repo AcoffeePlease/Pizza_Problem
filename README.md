@@ -11,18 +11,14 @@ Funzioni necessarie per tutte le soluzioni:
 
 ## greedy1.py
 
-Per il **medium.in** visto che bisogna avere le fette di pizza con almeno L=4 pomodori e L=4 funghi e che non superino l'area di 12 quadrati allora le possibili forme tra cui scegliere sono 10.
+Per il **medium.in** visto che bisogna avere le fette di pizza con almeno L=4 pomodori e L=4 funghi e che non superino l'area di 12 quadrati allora le possibili forme tra cui scegliere sono 11.
+Per il **bigm.in** visto che bisogna avere le fette di pizza con almeno L=6 pomodori e L=6 funghi e che non superino l'area di 14 quadrati allora le possibili forme tra cui scegliere sono 10.
 
 File di output: **output1.txt**.
 
 | example  | small   | medium   | big | 
 |-------------- | -------------- | -------------- | ----------|
-|  ....  |   ....   |   36847   |  | 
-
-## greedy2.py
-File di input: 
-
-File di output: **output2.txt**.
+|  ....  |   ....   |   36847   | 393207 | 
 
 
 # HASHCODE PIZZA PROBLEM in C++
