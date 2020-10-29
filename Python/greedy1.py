@@ -55,14 +55,22 @@ def main():
     # Read file input
     #  R, C, L, H, pizza = read_file('original_scenario/example.in')
     #  R, C, L, H, pizza = read_file('original_scenario/small.in')
-    R, C, L, H, pizza = read_file('original_scenario/medium.in')
+    #  R, C, L, H, pizza = read_file('original_scenario/medium.in')
     #  L=4 e H=12
-    #  R, C, L, H, pizza = read_file('original_scenario/big.in')
+    R, C, L, H, pizza = read_file('original_scenario/big.in')
+    #  L=6 e H=14
     #  print("R={} , C={} , L={} , H={} , \npizza=\n{} ".format(R, C, L, H, pizza))
 
 
-    possible_shapes = [(4, 2), (2, 4), (3, 3), (5, 2), (2, 5), (11, 1), (1, 11),
+    """
+    Per medium.in
+    
+     possible_shapes = [(4, 2), (2, 4), (3, 3), (5, 2), (2, 5), (11, 1), (1, 11),
                        (2, 6), (6, 2), (3, 4), (4, 3)]
+                       
+    """
+    possible_shapes = [(6, 2), (2, 6), (12, 1), (1, 12), (13, 1), (1, 13), (7, 2),
+                       (2, 7), (14, 1), (1, 14)]
 
     slice_mask = np.zeros_like(pizza)
     # stores the sliced cells as 1 and 0 for untouched
@@ -89,7 +97,8 @@ def main():
         #  choose a random shape
         dimension = False
         while not dimension:
-            shape = possible_shapes[random.randint(0, 10)]
+            # (0,10) for medium
+            shape = possible_shapes[random.randint(0, 9)]
             if shape[0] * shape[1] <= H:
                 dimension = True
                 print("Shape che rispetta la dimensione: {}".format(shape))
