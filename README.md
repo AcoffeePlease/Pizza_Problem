@@ -10,9 +10,14 @@ Funzioni necessarie per tutte le soluzioni:
 3) **score**: fornisce il punteggio del taglio di pizza scelto
 
 ## greedy1.py
-File di input: **medium.in** , also big.in?
+
+Per il **medium.in** visto che bisogna avere le fette di pizza con almeno L pomodori e L funghi e che non superino l'area di 12 quadrati allora le possibili forme tra cui scegliere sono 10.
 
 File di output: **output1.txt**.
+
+| example  | small   | medium   | big | 
+|-------------- | -------------- | -------------- | ----------|
+|  ....  |   ....   |   36847   |  | 
 
 ## greedy2.py
 File di input: 
